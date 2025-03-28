@@ -1,0 +1,288 @@
+train: /Users/wjm55/yale/european-art-yolo/train/images
+val: /Users/wjm55/yale/european-art-yolo/val/images
+nc: 70
+names:
+- eagle
+- scroll
+- crown
+- nude
+- person
+- tree
+- dog
+- bird
+- deer
+- horse
+- monkey
+- angel
+- jug
+- sheep
+- shepherd
+- stole
+- lily
+- halo
+- book
+- god the father
+- bear
+- crown of thorns
+- crucifixion
+- lion
+- elephant
+- banner
+- trumpet
+- knight
+- crozier
+- monk
+- prayer
+- donkey
+- cow
+- lance
+- boat
+- tiara
+- sword
+- arrow
+- serpent
+- dragon
+- helmet
+- hands
+- skull
+- shield
+- zucchetto
+- palm
+- devil
+- mitre
+- dove
+- chalice
+- orange
+- fish
+- key of heaven
+- head
+- apple
+- camauro
+- unicorn
+- butterfly
+- swan
+- centaur
+- horn
+- saturno
+- pegasus
+- rooster
+- cat
+- holy shroud
+- zebra
+- judith
+- mouse
+- banana
+counts:
+  total:
+    eagle: 260
+    scroll: 735
+    crown: 1048
+    nude: 5070
+    person: 46806
+    tree: 11356
+    dog: 2225
+    bird: 3022
+    deer: 349
+    horse: 3368
+    monkey: 459
+    angel: 4930
+    jug: 1396
+    sheep: 1302
+    shepherd: 238
+    stole: 117
+    lily: 433
+    halo: 4944
+    book: 2742
+    god the father: 273
+    bear: 125
+    crown of thorns: 342
+    crucifixion: 556
+    lion: 489
+    elephant: 184
+    banner: 1337
+    trumpet: 389
+    knight: 1759
+    crozier: 360
+    monk: 932
+    prayer: 997
+    donkey: 514
+    cow: 1422
+    lance: 1761
+    boat: 3252
+    tiara: 351
+    sword: 1691
+    arrow: 420
+    serpent: 424
+    dragon: 383
+    helmet: 2048
+    hands: 281
+    skull: 490
+    shield: 772
+    zucchetto: 127
+    palm: 398
+    devil: 879
+    mitre: 374
+    dove: 393
+    chalice: 613
+    orange: 113
+    fish: 120
+    key of heaven: 384
+    head: 220
+    apple: 829
+    camauro: 208
+    unicorn: 128
+    butterfly: 485
+    swan: 165
+    centaur: 177
+    horn: 119
+    saturno: 137
+    pegasus: 116
+    rooster: 150
+    cat: 173
+    holy shroud: 91
+    zebra: 82
+    judith: 85
+    mouse: 27
+    banana: 32
+  train:
+    eagle: 191
+    scroll: 609
+    crown: 836
+    nude: 4077
+    person: 37937
+    tree: 9051
+    dog: 1813
+    bird: 2373
+    deer: 274
+    horse: 2767
+    monkey: 359
+    angel: 4021
+    jug: 1137
+    sheep: 1083
+    shepherd: 192
+    stole: 96
+    lily: 337
+    halo: 4061
+    book: 2206
+    god the father: 229
+    bear: 113
+    crown of thorns: 284
+    crucifixion: 462
+    lion: 386
+    elephant: 145
+    banner: 1076
+    trumpet: 334
+    knight: 1456
+    crozier: 304
+    monk: 740
+    prayer: 788
+    donkey: 419
+    cow: 1146
+    lance: 1455
+    boat: 2617
+    tiara: 292
+    sword: 1369
+    arrow: 336
+    serpent: 380
+    dragon: 300
+    helmet: 1679
+    hands: 220
+    skull: 362
+    shield: 638
+    zucchetto: 101
+    palm: 342
+    devil: 704
+    mitre: 295
+    dove: 318
+    chalice: 506
+    orange: 75
+    fish: 114
+    key of heaven: 303
+    head: 178
+    apple: 708
+    camauro: 163
+    unicorn: 99
+    butterfly: 416
+    swan: 107
+    centaur: 138
+    horn: 89
+    saturno: 114
+    pegasus: 98
+    rooster: 124
+    cat: 134
+    holy shroud: 77
+    zebra: 70
+    judith: 73
+    mouse: 23
+    banana: 32
+  val:
+    tree: 2305
+    nude: 993
+    person: 8869
+    book: 536
+    devil: 175
+    prayer: 209
+    crown: 212
+    serpent: 44
+    sword: 322
+    angel: 909
+    boat: 635
+    banner: 261
+    monk: 192
+    palm: 56
+    shepherd: 46
+    sheep: 219
+    jug: 259
+    god the father: 44
+    cow: 276
+    horse: 601
+    dog: 412
+    halo: 883
+    crucifixion: 94
+    camauro: 45
+    skull: 128
+    lily: 96
+    dove: 75
+    arrow: 84
+    bird: 649
+    deer: 75
+    knight: 303
+    helmet: 369
+    tiara: 59
+    key of heaven: 81
+    stole: 21
+    scroll: 126
+    dragon: 83
+    lion: 103
+    chalice: 107
+    donkey: 95
+    orange: 38
+    shield: 134
+    head: 42
+    lance: 306
+    monkey: 100
+    crown of thorns: 58
+    mitre: 79
+    saturno: 23
+    eagle: 69
+    rooster: 26
+    apple: 121
+    trumpet: 55
+    cat: 39
+    crozier: 56
+    swan: 58
+    hands: 61
+    pegasus: 18
+    centaur: 39
+    zucchetto: 26
+    unicorn: 29
+    horn: 30
+    zebra: 12
+    mouse: 4
+    bear: 12
+    elephant: 39
+    holy shroud: 14
+    butterfly: 69
+    judith: 12
+    fish: 6
+path: /Users/wjm55/yale/european-art-yolo
