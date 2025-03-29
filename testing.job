@@ -3,7 +3,6 @@
 #$ -S /bin/sh
 #$ -pe mthread 1
 #$ -l gpu,ngpu=1,gpu_arch=L40S
-#$ -l s_cpu=120:00:00
 #$ -cwd
 #$ -j y
 #$ -N training_all
@@ -24,6 +23,6 @@ module load nvidia
 
 # Run the Python script with the appropriate parameters
 
-python train.py
+python testing.py
 
 echo = `date` job $JOB_NAME done

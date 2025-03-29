@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 
 models = [
-    # "yolo11n.pt",
+    "yolo11n.pt",
     "yolo11s.pt",
     "yolo11m.pt",
     "yolo11l.pt",
@@ -13,7 +13,7 @@ for model_name in models:
 
         # Train the model with memory-saving parameters
     results = model.train(
-        data="data.yaml",
+        data="european_art_dataset/data.yaml",
         epochs=100,
         imgsz=640,
         batch=8,  # Reduce batch size (default is 16)
